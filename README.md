@@ -2,8 +2,6 @@
 
 This is a tutorial about how to publish a Maven artifact to GitHub:
 
-https://www.liaoxuefeng.com/wiki/1252599548343744/1347981037010977
-
 ### Usage
 
 Add the following to `pom.xml`:
