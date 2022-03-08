@@ -22,8 +22,7 @@ Add the following to `pom.xml`:
     <repositories>
         <repository>
             <id>infrastructure</id>
-            <name>Infrastructure</name>
-            <url>https://arminzheng.github.io/maven-repo/releases/</url>
+            <url>https://arminzheng.github.io/repository/</url>
         </repository>
     </repositories>
     

@@ -107,7 +107,7 @@
         <repository>
             <id>releases</id>
             <name>deploy-releases</name>
-            <url>file://${project.basedir}/releases</url>
+            <url>file://${project.basedir}</url>
         </repository>
     </distributionManagement>
 </project>
