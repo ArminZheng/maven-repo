@@ -9,6 +9,14 @@
 
     <name>Microservices Infrastructure</name>
 
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
     <developers>
         <developer>
             <name>Armin Zheng</name>
@@ -71,43 +79,14 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
-                <groupId>com.arminzheng</groupId>
-                <artifactId>free-plugin</artifactId>
-                <version>0.0.1</version>
-                <executions>
-                    <execution>
-                        <id>another-id</id>
-                        <goals>
-                            <goal>hello</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <name>jack</name>
-                    <args>rose</args>
-                    <messages>
-                        <message>Titanic</message>
-                        <message>Boat</message>
-                    </messages>
-                </configuration>
-            </plugin>
         </plugins>
     </build>
-
-    <pluginRepositories>
-        <pluginRepository>
-            <id>free-plugin</id>
-            <name>Free Plugin</name>
-            <url>https://arminzheng.github.io/free-plugin/releases/</url>
-        </pluginRepository>
-    </pluginRepositories>
 
     <distributionManagement>
         <repository>
             <id>releases</id>
             <name>deploy-releases</name>
-            <url>file://${project.basedir}/releases</url>
+            <url>file://${project.basedir}</url>
         </repository>
     </distributionManagement>
 </project>
