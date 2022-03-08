@@ -1,7 +1,7 @@
 package com.arminzheng.infrastructure.util;
 
 import com.arminzheng.infrastructure.exception.BizException;
-import com.sun.istack.internal.Nullable;
+import org.springframework.lang.Nullable;
 
 import java.lang.reflect.Array;
 import java.util.Collection;
